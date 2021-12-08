@@ -1,0 +1,358 @@
+/* Login-page */
+.login-page {
+  height: 100vh;
+}
+.login-page .block {
+  width: 600px;
+  padding: 40px 0;
+}
+.login-page .block .heading {
+  letter-spacing: 1.5px;
+  color: #e45721;
+  font-style: italic;
+  padding: 40px 0;
+}
+
+.block .input-field {
+  min-width: 310px;
+}
+.block .input-field .lbl {
+  padding: 14px 0;
+}
+.block .input-field .input-name {
+  padding: 8px 3px;
+  /* width: 100%; */
+  /* min-width: 250px; */
+}
+.block .input-field .input-name :focus {
+  border: 1px solid #f4f4f4;
+  background: lightgoldenrodyellow;
+}
+.block .btn-loing {
+  padding: 14px 3px;
+  margin-top: 10px;
+  background: #d42424;
+}
+.block .signup-forgot {
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.block .signup-forgot .btn-signup {
+  padding: 10px;
+  background: #d42424;
+}
+.block .signup-forgot .btn-forgot-lbl {
+}
+
+/* signup page */
+.signup-page {
+  height: 100vh;
+}
+.signup-page .block {
+  width: 600px;
+  padding: 40px 0;
+}
+.signup-page .block .heading {
+  letter-spacing: 1.5px;
+  color: #e45721;
+  font-style: italic;
+  padding: 40px 0;
+}
+
+.block .signup-have-account {
+  justify-content: flex-end;
+  padding-top: 40px;
+}
+
+/* Header */
+.header {
+  z-index: 999;
+  background: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 3px solid #555;
+  position: fixed;
+}
+.header .wrap {
+}
+
+.header .wrap .left {
+  background: #e45721;
+  padding: 5px 4px;
+  max-width: 225px;
+  min-width: 225px;
+}
+.header .wrap .left .ico {
+  font-size: 60px;
+}
+.header .wrap .left .lbl {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.header .wrap .center {
+  flex: 2;
+}
+
+.header .wrap .right {
+  flex: 1;
+  /* justify-content: flex-end; */
+}
+.header .wrap .right .ico-user {
+  padding: 0 10px;
+}
+.header .wrap .right .btn-signout {
+  border: 1px solid #000;
+  padding: 5px 12px;
+  border-radius: 4px;
+}
+.right .btn-signout:hover {
+  background: #ccc;
+  transition: all 0.3s linear;
+}
+
+/* Nav-btn */
+.nav-button {
+  background: #000;
+  width: 40px;
+  height: 30px;
+  border-radius: 0 16px 16px 0;
+  left: 0;
+  position: fixed;
+  /* z-index: 999; */
+  cursor: pointer;
+}
+
+.Nav-bar {
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 99999;
+  height: 100%;
+  inset: 0;
+  /* overflow: hidden; */
+}
+
+.Nav-bar .toggle-button {
+  position: absolute;
+  /*margin-top: 30px;*/
+  right: 0;
+  transform: translateX(100%);
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 2rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+}
+
+.Nav-bar .block {
+  width: 233px;
+  background: #000;
+  /* height: calc(100vh - 100px); */
+  /* overflow-y: auto; */
+  position: fixed;
+  top: 72px;
+  left: 0;
+  bottom: 0;
+  transition: all 0.3s linear 0s;
+  transform: translateX(-100%);
+}
+.Nav-bar .nav-visible {
+  transform: translateX(0);
+}
+/* .Nav-bar .hide {
+  transform: translateX(-100%);
+} */
+.Nav-bar .block .lbl {
+  padding: 10px 8px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.Nav-bar .block .lbl:hover {
+  color: #e45721;
+}
+
+.show {
+  right: 0;
+}
+.show .body {
+  overflow-y: hidden;
+}
+.hide {
+  left: -450px;
+}
+
+/* resource-page */
+.resource-page {
+  min-height: calc(100vh - 80px);
+}
+
+.resource-page .res-block {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.res-block .head {
+}
+.row {
+  flex: 1;
+  justify-content: center;
+  border: 1px solid #333;
+  min-height: 35px;
+  align-items: center;
+}
+.row .btn-add {
+  border: 1px solid #3c3c3c;
+  padding: 5px 25px;
+  border-radius: 6px;
+  min-width: 100px;
+}
+.row .btn-add:hover {
+  background: #ccc;
+  transition: all 0.3s linear;
+}
+.res-block .head .row {
+}
+.res-block .head .row:nth-child(1) {
+  flex: 2.8;
+  border-right: none;
+}
+
+.tlb-head {
+}
+
+.tlb-head .row {
+  flex: 1;
+  border-top: none;
+  border-right: none;
+  min-height: 60px;
+}
+.tlb-head .row:nth-child(2) {
+  flex: 1.8;
+}
+.tlb-head .row:nth-child(3) {
+  border-right: 1px solid #333;
+}
+/* Projects page */
+.project-page {
+  height: calc(100vh - 80px);
+}
+
+.tbl-list .row {
+  min-height: 80px;
+}
+.tbl-list .row:nth-child(3) {
+  justify-content: space-around;
+}
+
+/* Project Resource Page */
+.project-res .res-block .tlb-head .row {
+  border-top: 1px solid #333;
+}
+
+/* Project Cost */
+.project-cost .res-block .tlb-head .row {
+  border-right: none;
+  text-align: center;
+  flex: 1;
+}
+.project-cost .res-block .tlb-head:nth-child(1) {
+  border-top: 1px solid #333;
+}
+.project-cost .res-block .tlb-head .row:nth-child(4) {
+  border-right: 1px solid #333;
+}
+
+/* Drop Down Section */
+.dropDown {
+}
+.dropDown .category {
+}
+.category .box {
+  background: #fff;
+  border: 1px solid #dddd;
+  padding: 0 16px;
+  min-height: 40px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  min-width: 180px;
+  justify-content: space-between;
+}
+.category .box .slt {
+  overflow: hidden;
+}
+.category .box .slt .lbl {
+  color: #222;
+  padding: 0 10px;
+}
+
+.dropDown .block {
+  top: 41px;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+  visibility: hidden;
+  opacity: 0;
+  z-index: 2;
+}
+.dropDown .block .manue {
+  width: 100%;
+  height: 120px;
+  overflow-x: auto;
+  padding: 5px 0px;
+}
+.dropDown .block .manue .slt {
+  width: 100%;
+  padding: 8px 0;
+}
+.dropDown .block .manue .slt .lbl {
+  flex: 1;
+  margin-left: 5px;
+  justify-content: flex-start;
+}
+.dropDown .block .manue .slt:hover {
+  cursor: pointer;
+}
+.dropDown .block .manue .slt:hover .lbl {
+  color: #c4c4c4;
+}
+.showDropdown {
+  display: flex;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Update Page */
+.update-page {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.update-page .update-block {
+}
+.update-page .update-block .page {
+  padding: 10px 0;
+}
+.update-block .inputs {
+  padding: 10px 0;
+  width: 260px;
+}
+.inputs .txt-name {
+  padding: 8px 3px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #c3c3c3;
+}
+.inputs .btn-update {
+  background-color: #c3c3c3;
+  padding: 10px 5px;
+  border-radius: 4px;
+}
+.inputs .btn-update:hover {
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+}

@@ -1,0 +1,211 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+}
+.font {
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+.col {
+  flex-direction: column;
+}
+.fixed {
+  position: fixed;
+}
+.abs {
+  position: absolute;
+}
+.rel {
+  position: relative;
+}
+.aic {
+  align-items: center;
+}
+.jc {
+  justify-content: center;
+}
+.hide {
+  display: none;
+}
+.visible {
+  visibility: hidden;
+}
+
+bl {
+  display: block;
+}
+.noul,
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.cfff {
+  color: #fff;
+}
+.c000 {
+  color: #000;
+}
+.c222 {
+  color: #222;
+}
+.c333 {
+  color: #333;
+}
+.c444 {
+  color: #444;
+}
+.c555 {
+  color: #555;
+}
+.c666 {
+  color: #666;
+}
+.c777 {
+  color: #777;
+}
+
+.s12 {
+  font-size: 12px;
+}
+.s13 {
+  font-size: 13px;
+}
+.s14 {
+  font-size: 14px;
+}
+.s15 {
+  font-size: 15px;
+}
+.s16 {
+  font-size: 16px;
+}
+.s17 {
+  font-size: 11px;
+}
+.s18 {
+  font-size: 18px;
+}
+.s19 {
+  font-size: 19px;
+}
+.s20 {
+  font-size: 20px;
+}
+.s21 {
+  font-size: 21px;
+}
+.s22 {
+  font-size: 22px;
+}
+.s24 {
+  font-size: 24px;
+}
+.s25 {
+  font-size: 25px;
+}
+.s26 {
+  font-size: 26px;
+}
+.s27 {
+  font-size: 27px;
+}
+.s28 {
+  font-size: 28px;
+}
+.s29 {
+  font-size: 29px;
+}
+.s30 {
+  font-size: 30px;
+}
+.s31 {
+  font-size: 31px;
+}
+.s32 {
+  font-size: 32px;
+}
+.s33 {
+  font-size: 33px;
+}
+.s34 {
+  font-size: 34px;
+}
+.s35 {
+  font-size: 35px;
+}
+.s40 {
+  font-size: 40px;
+}
+.s50 {
+  font-size: 50px;
+}
+
+.b3 {
+  font-weight: 300;
+}
+.b4 {
+  font-weight: 400;
+}
+.b5 {
+  font-weight: 500;
+}
+.b6 {
+  font-weight: 600;
+}
+.b7 {
+  font-weight: 700;
+}
+.b8 {
+  font-weight: 800;
+}
+
+.fontb {
+  font-weight: bold;
+}
+.fontn {
+  font-weight: normal;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+.cleanbtn {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+select,
+textarea,
+input {
+  outline: none;
+}
+.t-c {
+  text-align: center;
+}
+
+.anim {
+  transition: all 0.3s linear;
+}

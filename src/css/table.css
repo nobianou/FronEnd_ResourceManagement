@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+.resource-table {
+  padding: 100px;
+}
+.resource-table .popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.resource-table .popup .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 300px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.resource-table .popup .card input {
+  padding: 8px;
+  margin: 8px 0;
+  width: 80%;
+}
+.resource-table .popup .card .buttons {
+  width: 80%;
+}
+.resource-table .popup .card .buttons button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.resource-table .popup .card .buttons button:nth-child(2) {
+  background: red;
+}
+.resource-table .table-header {
+  background: gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.resource-table .table-header .search {
+  display: flex;
+}
+.resource-table .table-header .search input {
+  padding: 7px;
+}
+.resource-table .table-header button {
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  background: #e45721;
+  color: #fff;
+}
+.resource-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+.resource-table table thead tr th {
+  background: lightgray;
+  padding: 15px 0;
+  width: max-content;
+}
+.resource-table table thead tr th:nth-child(1) {
+  width: 135px;
+}
+.resource-table table td {
+  padding-left: 10px;
+}
+.resource-table table th:nth-child(1) {
+  text-align: center;
+}
+.resource-table table td:nth-child(1) {
+  text-align: center;
+}
+.plus-button-container {
+  position: relative;
+}
+.resource-table .plus-button-container .plus-button {
+  padding: 10px;
+}
+.resource-table .add-row {
+  display: flex;
+}
+.resource-table .add-row button {
+  margin: 0 5px;
+  background: green;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+}
+.resource-table .add-row button:nth-child(2) {
+  background: red;
+}
+.plus-button-container .buttons {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+.plus-button-container .buttons button {
+  background: #fff;
+  margin: 8px 0;
+  color: #000;
+  width: max-content;
+}
